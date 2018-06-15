@@ -17,6 +17,8 @@
 		8D320E1520D2624800687B4E /* DatePopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D320E1320D2624800687B4E /* DatePopupViewController.storyboard */; };
 		8D320E1720D262F500687B4E /* SelectTimeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D320E1620D262F500687B4E /* SelectTimeViewController.storyboard */; };
 		8D320E1920D2638100687B4E /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D320E1820D2638100687B4E /* SelectTimeViewController.swift */; };
+		8D34FBF620D3697700406A64 /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34FBF520D3697700406A64 /* NotificationNameExtension.swift */; };
+		8D34FBF820D39D5700406A64 /* PopupDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34FBF720D39D5700406A64 /* PopupDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		8D320E1420D2624800687B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ReusablePopups/Base.lproj/DatePopupViewController.storyboard; sourceTree = "<group>"; };
 		8D320E1620D262F500687B4E /* SelectTimeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectTimeViewController.storyboard; sourceTree = "<group>"; };
 		8D320E1820D2638100687B4E /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
+		8D34FBF520D3697700406A64 /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		8D34FBF720D39D5700406A64 /* PopupDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				8D320E1120D25CAD00687B4E /* DatePopupViewController.swift */,
 				8D320E1620D262F500687B4E /* SelectTimeViewController.storyboard */,
 				8D320E1820D2638100687B4E /* SelectTimeViewController.swift */,
+				8D34FBF520D3697700406A64 /* NotificationNameExtension.swift */,
+				8D34FBF720D39D5700406A64 /* PopupDelegate.swift */,
 			);
 			path = ReusablePopups;
 			sourceTree = "<group>";
@@ -152,9 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D34FBF820D39D5700406A64 /* PopupDelegate.swift in Sources */,
 				8D320E0220D2599C00687B4E /* SecondViewController.swift in Sources */,
 				8D320E1920D2638100687B4E /* SelectTimeViewController.swift in Sources */,
 				8D320E1220D25CAD00687B4E /* DatePopupViewController.swift in Sources */,
+				8D34FBF620D3697700406A64 /* NotificationNameExtension.swift in Sources */,
 				8D320DFE20D2599C00687B4E /* AppDelegate.swift in Sources */,
 				8D320E0020D2599C00687B4E /* FirstViewController.swift in Sources */,
 			);
